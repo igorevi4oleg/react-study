@@ -13,12 +13,12 @@ class Button extends React.Component {
 
       if(clicked) {
 
-        return (<button onClick={() => this.setState({clicked : false})}>Clicked</button>)
+        return (<button className="button" onClick={() => this.setState({clicked : false})}>Clicked</button>)
       }
 
       return (
       
-      <button onClick={() => this.setState({clicked : true})}>Click Me</button>
+      <button className="button" onClick={() => this.setState({clicked : true})}>Click Me</button>
       
       )
 
